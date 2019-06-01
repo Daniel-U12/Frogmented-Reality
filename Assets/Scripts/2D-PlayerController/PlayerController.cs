@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col){
         if(col.gameObject.tag == "Hazard" && safety_timer >= safe_time){
-            safety_timer = safe_time;
+            safety_timer = 0;
             hp -= 1;
         }
     }
