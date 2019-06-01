@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 9195928764215999815}
   - component: {fileID: 9195928764215999816}
   - component: {fileID: 9195928764215999817}
+  - component: {fileID: 3209414330617181216}
   m_Layer: 0
   m_Name: sacco-base
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,3 +119,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3209414330617181216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9195928764215999818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6412dba9402941e4a81acb818698348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
