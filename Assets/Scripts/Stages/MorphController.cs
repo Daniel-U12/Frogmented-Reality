@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 public class MorphController : MonoBehaviour
 {
 
-    public MorphController stage;
+    public MorphController[] stages;
     public float morphDuration;
     public float morphDistance;
+    public int numMorphs;
 
     private CameraController maincamera;
 
@@ -36,15 +35,16 @@ public class MorphController : MonoBehaviour
     void CreateStage()
     {
         Vector3 position = gameObject.transform.position -  new Vector3(0, morphDistance, 0);
-        MorphController newStage = Instantiate(stage, position, Quaternion.identity);
+        MorphController newStage = Instantiate(GetStage(), position, Quaternion.identity);
         
-        newStage.stage = stage;
+        stages.CopyTo(newStage.stages , 0);
+        newStage.numMorphs = numMorphs + 1;
         newStage.morphDistance = morphDistance;
         newStage.morphDuration = morphDuration; 
     }
 
-    void GetStage()
+    MorphController GetStage()
     {
-
+        return stages[(numMorphs + 1) % stages.Length];
     }
 }
