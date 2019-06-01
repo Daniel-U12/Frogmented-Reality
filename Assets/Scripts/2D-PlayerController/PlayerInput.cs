@@ -6,45 +6,50 @@ public class PlayerInput : MonoBehaviour
 {
 
     private PlayerController controller;
-    [SerializeField]
-    private int playerNum;
-
+    private Rigidbody2D rb;
+    public float jetpack_charge = 1;
     // Use this for initialization
     void Start()
     {
-        controller = GetComponent<PlayerController>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!controller.IsDead) {
-            if (Input.GetAxisRaw("Horizontal" + playerNum.ToString()) < 0) {
-                controller.Move(-1.0f);
-
-            }
-            else if (Input.GetAxisRaw("Horizontal" + playerNum.ToString()) > 0) {
-                controller.Move(1.0f);
-            }
-            else if (Input.GetAxisRaw("Horizontal" + playerNum.ToString()) == 0) {
-                controller.Stop();
-            }
-
-            if (Input.GetAxisRaw("Vertical" + playerNum.ToString()) < 0) {
-                controller.FastFall();
-            }
-
-            if (Input.GetButtonDown("Jump" + playerNum.ToString())) {
-                controller.JumpPressed();
-            }
-            else if (Input.GetButton("Jump" + playerNum.ToString())) {
-                controller.ContinueJump();
-            }
-
-            if (Input.GetButtonDown("Fire" + playerNum.ToString())) {
-                controller.Shoot();
-            }
+        if (!Input.GetButton("up") && jetpack_charge < 1){
+            jetpack_charge += (Time.deltaTime/2);
         }
+        if (Input.GetButton("up") && jetpack_charge > 0) {
+            Vector2 up = new Vector2(0,1);
+            rb.AddForce(up*15);
+            jetpack_charge -= Time.deltaTime;
+        }
+        
+        // else if (Input.GetButtonDown("down")) {
+            
+        // }
+        // else if (Input.GetButtonDown("left")) {
+            
+        // }
+        // else if (Input.GetButtonDown("right")) {
+            
+        // }
+
+        // if (Input.GetButtonDown("Vertical" + playerNum.ToString()) < 0) {
+        //     controller.FastFall();
+        // }
+
+        // if (Input.GetButtonDown("Jump" + playerNum.ToString())) {
+        //     controller.JumpPressed();
+        // }
+        // else if (Input.GetButton("Jump" + playerNum.ToString())) {
+        //     controller.ContinueJump();
+        // }
+
+        // if (Input.GetButtonDown("Fire" + playerNum.ToString())) {
+        //     controller.Shoot();
+        // }
 
     }
 
