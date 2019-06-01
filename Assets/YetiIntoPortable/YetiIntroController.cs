@@ -23,6 +23,6 @@ public class YetiIntroController: MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         anim.SetTrigger("idleDone");
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("SampleScene");
     }
 }
