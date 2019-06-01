@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 931223771}
   - component: {fileID: 931223770}
   - component: {fileID: 931223772}
+  - component: {fileID: 931223773}
   m_Layer: 0
   m_Name: deathball-1
   m_TagString: Untagged
@@ -335,6 +336,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c00474a91b8851438ec5e8684a5620b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxspeed: 3
+  jetpack_charge: 0
+  full_charge: 1.5
+--- !u!114 &931223773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931223767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7067b4479ce022a4eab05a7282303691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile_power: 400
+  projectile: {fileID: 9195928764215999818, guid: 04c2357af29bf437e9920cee6117d8ee,
+    type: 3}
+  inst_pos: {x: 0, y: 0, z: 0}
+  object_half_size: {x: 0, y: 0, z: 0}
 --- !u!1 &1961894993
 GameObject:
   m_ObjectHideFlags: 0
