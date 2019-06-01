@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
         if(safety_timer < safe_time){
             safety_timer += Time.deltaTime;
         }
-        Debug.Log(hp);
+        //Debug.Log(hp);
         
     }
 
@@ -46,8 +46,8 @@ public class PlayerController : MonoBehaviour
             inst_pos_x, 
             gameObj_pos.y,
             0);
-        Debug.Log(inst_pos);
-        Debug.Log(gameObj_pos);
+        //Debug.Log(inst_pos);
+        //Debug.Log(gameObj_pos);
         inst_pos.x = inst_pos.x;
         GameObject bullet = Instantiate(projectile, inst_pos, Quaternion.identity) as GameObject;
         bullet.GetComponent<Rigidbody2D>().AddForce(new Vector2 (1.5f*dir,1f)*projectile_power);

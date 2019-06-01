@@ -3,12 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
   tags:
-  - Hazard
-=======
-  tags: []
->>>>>>> 5bbb6a15966d397238370f8f3432135c1240860a
+  - bee_boundary
   layers:
   - Default
   - TransparentFX
@@ -18,11 +14,7 @@ TagManager:
   - UI
   - 
   - 
-<<<<<<< HEAD
   - 
-=======
-  - Background Layer
->>>>>>> 5bbb6a15966d397238370f8f3432135c1240860a
   - 
   - 
   - 
