@@ -28,11 +28,6 @@ public class CameraController : MonoBehaviour
             rb.gravityScale = 0;
             rb.velocity = new Vector2(0f, 0f);
         }
-
-        Debug.Log(transform.position.y - target);
-            //float newPosition = Mathf.SmoothDamp(transform.position.y, target, ref velocity, transitionDuration);
-            //velocity += acceleration * Time.deltaTime;
-            //transform.position = new Vector3(transform.position.x, transform.position.y + velocity * Time.deltaTime, transform.position.z);
     }
 
     public void MoveDown(float distance)
