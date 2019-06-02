@@ -18,6 +18,8 @@ public class PlayerInput : MonoBehaviour
     public float maxspeed = 1f;
     public float jetpack_charge = 2.75f;
     public float full_charge = 2.75f;
+    public int playerNum;
+
     private float shoot_timer = 1.5f;
     private bool reloaded = true;
     // Use this for initialization
@@ -50,10 +52,10 @@ public class PlayerInput : MonoBehaviour
         if (shoot_timer < 1.5f){
             shoot_timer += Time.deltaTime;
         }
-        if (!Input.GetButton("up") && jetpack_charge < full_charge){
+        if (Input.GetAxis("Vertical" + playerNum) <= 0 && jetpack_charge < full_charge){
             jetpack_charge += (Time.deltaTime/1.75f);
         }
-        if (Input.GetButton("up") && jetpack_charge > 0f) {
+        if (Input.GetAxis("Vertical" + playerNum) > 0 && jetpack_charge > 0f) {
             if (grounded) {
                 rb.velocity = new Vector2(0,4);
             }
@@ -62,15 +64,15 @@ public class PlayerInput : MonoBehaviour
             grounded = false;
             jetpack_charge -= Time.deltaTime;
         }
-        if (Input.GetButton("left")) {
+        if (Input.GetAxis("Horizontal" + playerNum) < -0.2f) {
             dir = -1;
             rb.AddForce(left*15);
         }
-        else if (Input.GetButton("right")) {
+        else if (Input.GetAxis("Horizontal" + playerNum) > 0.2f) {
             dir = 1;
             rb.AddForce(right*15);
         }
-        if (Input.GetButtonDown("fire") && shoot_timer >= 1.5f){
+        if (Input.GetButtonDown("fire" + playerNum) && shoot_timer >= 1.5f){
             shoot_timer = 0;
             controller.shoot(dir);
         }
@@ -81,7 +83,6 @@ public class PlayerInput : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, new Vector3(0,-1.5f,0), 1.5f, layermask);
         Debug.DrawRay(transform.position, new Vector3(0,-1.5f,0), Color.green);
         if (hit.collider != null && hit.collider.gameObject.tag == "Ground") {
-            Debug.Log("grounded");
             grounded = true;
         }
 
