@@ -32,7 +32,6 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         if(dir<0 && gameObject.transform.localScale.x<0){
             gameObject.transform.localScale = new Vector3(
                 gameObject.transform.localScale.x*-1,
