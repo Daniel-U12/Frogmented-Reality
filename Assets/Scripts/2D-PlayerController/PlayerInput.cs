@@ -11,7 +11,9 @@ public class PlayerInput : MonoBehaviour
     private Vector2 up = new Vector2(0,1);
     private Vector2 down = new Vector2(0,-1);
     private Rigidbody2D rb;
+    private Animator anim;
     private int dir;
+    public bool grounded = true;
     
     public float maxspeed = 1f;
     public float jetpack_charge = 2.75f;
@@ -23,6 +25,7 @@ public class PlayerInput : MonoBehaviour
     {
         dir = -1;
         controller = GetComponent<PlayerController>();
+        
         rb = GetComponent<Rigidbody2D>();
         Vector2 up = new Vector2(0,1);
     }
@@ -30,6 +33,17 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(dir<0 && gameObject.transform.localScale.x<0){
+            gameObject.transform.localScale = new Vector3(
+                gameObject.transform.localScale.x*-1,
+                gameObject.transform.localScale.y,
+                gameObject.transform.localScale.z);
+        }else if(dir>0 && gameObject.transform.localScale.x>0){
+            gameObject.transform.localScale = new Vector3(
+                gameObject.transform.localScale.x*-1,
+                gameObject.transform.localScale.y,
+                gameObject.transform.localScale.z);
+        }
         if(Mathf.Abs(rb.velocity.x) > maxspeed) {
             float unitVector = rb.velocity.x / rb.velocity.magnitude;
             rb.velocity = new Vector2(unitVector * maxspeed, rb.velocity.y);
@@ -41,8 +55,12 @@ public class PlayerInput : MonoBehaviour
             jetpack_charge += (Time.deltaTime/1.75f);
         }
         if (Input.GetButton("up") && jetpack_charge > 0f) {
+            if (grounded) {
+                rb.velocity = new Vector2(0,4);
+            }
             
             rb.AddForce(up*10f);
+            grounded = false;
             jetpack_charge -= Time.deltaTime;
         }
         if (Input.GetButton("down")) {
