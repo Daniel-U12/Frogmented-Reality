@@ -6,8 +6,10 @@ public class PlayerController : MonoBehaviour
 {
 
     private int hp = 2;
-
+    private int layermask = 1 << 4;
+    private PlayerInput player_in; 
     // Start is called before the first frame update
+    public float slippForce = 5f;
     public float safety_timer = 2.0f;
     public float safe_time = 2.0f;
     public float projectile_power = 25f;
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         object_half_size = gameObject.GetComponent<BoxCollider2D>().bounds.size / 2;
+        player_in = gameObject.GetComponent<PlayerInput>();
     }
 
     // Update is called once per frame
@@ -26,7 +29,9 @@ public class PlayerController : MonoBehaviour
         if(safety_timer < safe_time){
             safety_timer += Time.deltaTime;
         }
-        //Debug.Log(hp);
+        if(hp == 0){
+            Destroy(gameObject);
+        }
         
     }
 
@@ -40,23 +45,36 @@ public class PlayerController : MonoBehaviour
         } else if (dir > 0){
             inst_pos_x = inst_pos_x + (object_half_size.x + 0.25f);
         }
-        
-
         inst_pos = new Vector3(
             inst_pos_x, 
             gameObj_pos.y,
             0);
-        //Debug.Log(inst_pos);
-        //Debug.Log(gameObj_pos);
         inst_pos.x = inst_pos.x;
         GameObject bullet = Instantiate(projectile, inst_pos, Quaternion.identity) as GameObject;
-        bullet.GetComponent<Rigidbody2D>().AddForce(new Vector2 (1.5f*dir,1f)*projectile_power);
+        bullet.GetComponent<Rigidbody2D>().velocity = new Vector2 (1.5f*dir,0f)*projectile_power;
+    }
+
+    void FixedUpdate()
+    {
+        // Cast a ray straight down.
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, new Vector3(0,-0.75f,0), 1.5f, layermask);
+        Debug.DrawRay(transform.position, new Vector3(0,-0.75f,0), Color.green);
+
+        if (hit.collider != null && hit.collider.gameObject.tag == "Ground") {
+            player_in.grounded = true;
+        }
+
     }
 
     void OnCollisionEnter2D(Collision2D col){
         if(col.gameObject.tag == "Hazard" && safety_timer >= safe_time){
             safety_timer = 0;
             hp -= 1;
+        }
+    }
+    void OnCollisionEnterStay(Collision2D col){
+        if(col.gameObject.tag == "Slippy"){
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0,-1)*slippForce);
         }
     }
 }

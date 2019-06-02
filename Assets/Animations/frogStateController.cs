@@ -2,25 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class frogStateController : MonoBehaviour
 {
+    private Animator anim;
     // Start is called before the first frame update
-    public float lifespan = 3.0f;
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        anim.SetTrigger("IsRunning");
     }
 
     // Update is called once per frame
     void Update()
     {
-        lifespan -= Time.deltaTime;
-        if( lifespan <= 0){
-            Destroy(gameObject);
-        }
-    }
-
-    void OnCollisionEnter2D(Collision2D col){
         
     }
 }
