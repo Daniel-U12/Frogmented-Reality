@@ -15,14 +15,12 @@ public class rotator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(dir);
-        Debug.Log(gameObject.transform.rotation.z);
         if (gameObject.transform.rotation.z >= 0.7){
             dir = -1f;
         } else if (gameObject.transform.rotation.z <= -0.7){
             dir = 1f;
         }
-        z += Time.deltaTime * 15 * 3 * dir;
+        z += Time.deltaTime * 20 * 3 * dir;
         gameObject.transform.rotation = Quaternion.Euler(0, 0, z);   
     }
 }
