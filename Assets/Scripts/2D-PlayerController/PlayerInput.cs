@@ -20,6 +20,10 @@ public class PlayerInput : MonoBehaviour
     public float full_charge = 2.75f;
     public int playerNum;
 
+    public GameObject meter;
+    private float meterLength;
+    private float leftPos;
+
     private float shoot_timer = 1.5f;
     private bool reloaded = true;
     // Use this for initialization
@@ -29,6 +33,9 @@ public class PlayerInput : MonoBehaviour
         controller = GetComponent<PlayerController>();
         rb = GetComponent<Rigidbody2D>();
         Vector2 up = new Vector2(0,1);
+
+        meterLength = meter.transform.localScale.x;
+        leftPos = (int) meter.transform.localPosition.x - meterLength/2;
     }
 
     // Update is called once per frame
@@ -76,6 +83,9 @@ public class PlayerInput : MonoBehaviour
             shoot_timer = 0;
             controller.shoot(dir);
         }
+        float length = meterLength * jetpack_charge / full_charge;
+        meter.transform.localScale = new Vector3(length, meter.transform.localScale.y, meter.transform.localScale.z);
+        meter.transform.localPosition = new Vector2(leftPos + length/2, meter.transform.localPosition.y);
     }
     void FixedUpdate()
     {
