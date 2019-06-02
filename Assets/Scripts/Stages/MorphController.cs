@@ -16,7 +16,7 @@ public class MorphController : MonoBehaviour
     void Start()
     {
         maincamera = Camera.main.gameObject.GetComponent<CameraController>();
-        Debug.Log(morphDuration);
+        Debug.Log(maincamera);
         Invoke("Morph", morphDuration);
     }
 
@@ -37,6 +37,8 @@ public class MorphController : MonoBehaviour
     void CreateStage()
     {
         Vector3 position = gameObject.transform.position -  new Vector3(0, morphDistance, 0);
+        Debug.Log(gameObject.transform.position);
+        Debug.Log(position);
         MorphController newStage = Instantiate(GetStage(), position, Quaternion.identity);
         
         newStage.morphDuration = morphDuration; 
