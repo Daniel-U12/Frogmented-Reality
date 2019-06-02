@@ -11,7 +11,6 @@ public class PlayerInput : MonoBehaviour
     private Vector2 up = new Vector2(0,1);
     private Vector2 down = new Vector2(0,-1);
     private Rigidbody2D rb;
-    private Animator anim;
     private int dir;
     private int layermask = 1 << 4;
     public bool grounded = true;
@@ -26,7 +25,6 @@ public class PlayerInput : MonoBehaviour
     {
         dir = -1;
         controller = GetComponent<PlayerController>();
-        
         rb = GetComponent<Rigidbody2D>();
         Vector2 up = new Vector2(0,1);
     }
@@ -34,6 +32,7 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if(dir<0 && gameObject.transform.localScale.x<0){
             gameObject.transform.localScale = new Vector3(
                 gameObject.transform.localScale.x*-1,
@@ -63,9 +62,6 @@ public class PlayerInput : MonoBehaviour
             rb.AddForce(up*10f);
             grounded = false;
             jetpack_charge -= Time.deltaTime;
-        }
-        if (Input.GetButton("down")) {
-            //attack
         }
         if (Input.GetButton("left")) {
             dir = -1;
