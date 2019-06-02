@@ -1148,6 +1148,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4153341570594890196}
     m_Modifications:
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_Name
+      value: icespike (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spike
+      objectReference: {fileID: 0}
     - target: {fileID: 630574888988655198, guid: 75375b33148b80242886e7656e019bf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1203,11 +1213,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
-        type: 3}
-      propertyPath: m_Name
-      value: icespike (5)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75375b33148b80242886e7656e019bf6, type: 3}
 --- !u!4 &254250502377279886 stripped
@@ -1223,6 +1228,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4153341570594890196}
     m_Modifications:
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_Name
+      value: icespike (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spike
+      objectReference: {fileID: 0}
     - target: {fileID: 630574888988655198, guid: 75375b33148b80242886e7656e019bf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1278,11 +1293,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
-        type: 3}
-      propertyPath: m_Name
-      value: icespike (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75375b33148b80242886e7656e019bf6, type: 3}
 --- !u!4 &366438038147261664 stripped
@@ -1298,6 +1308,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4153341570594890196}
     m_Modifications:
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_Name
+      value: icespike (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spike
+      objectReference: {fileID: 0}
     - target: {fileID: 630574888988655198, guid: 75375b33148b80242886e7656e019bf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1353,11 +1373,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
-        type: 3}
-      propertyPath: m_Name
-      value: icespike (8)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75375b33148b80242886e7656e019bf6, type: 3}
 --- !u!4 &2389182250383416754 stripped
@@ -1373,6 +1388,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4153341570594890196}
     m_Modifications:
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_Name
+      value: icespike (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spike
+      objectReference: {fileID: 0}
     - target: {fileID: 630574888988655198, guid: 75375b33148b80242886e7656e019bf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1428,11 +1453,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
-        type: 3}
-      propertyPath: m_Name
-      value: icespike (6)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75375b33148b80242886e7656e019bf6, type: 3}
 --- !u!4 &2550540040259017460 stripped
@@ -1448,6 +1468,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4153341570594890196}
     m_Modifications:
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_Name
+      value: icespike (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spike
+      objectReference: {fileID: 0}
     - target: {fileID: 630574888988655198, guid: 75375b33148b80242886e7656e019bf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1503,11 +1533,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
-        type: 3}
-      propertyPath: m_Name
-      value: icespike (7)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75375b33148b80242886e7656e019bf6, type: 3}
 --- !u!4 &5642951761680636560 stripped
@@ -1523,6 +1548,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4153341570594890196}
     m_Modifications:
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_Name
+      value: icespike (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spike
+      objectReference: {fileID: 0}
     - target: {fileID: 630574888988655198, guid: 75375b33148b80242886e7656e019bf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1578,11 +1613,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
-        type: 3}
-      propertyPath: m_Name
-      value: icespike (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75375b33148b80242886e7656e019bf6, type: 3}
 --- !u!4 &5156784296801524654 stripped
@@ -1598,6 +1628,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4153341570594890196}
     m_Modifications:
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_Name
+      value: icespike (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spike
+      objectReference: {fileID: 0}
     - target: {fileID: 630574888988655198, guid: 75375b33148b80242886e7656e019bf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1653,11 +1693,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
-        type: 3}
-      propertyPath: m_Name
-      value: icespike (4)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75375b33148b80242886e7656e019bf6, type: 3}
 --- !u!4 &6631211118406801487 stripped
@@ -1673,6 +1708,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4153341570594890196}
     m_Modifications:
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_Name
+      value: icespike (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spike
+      objectReference: {fileID: 0}
     - target: {fileID: 630574888988655198, guid: 75375b33148b80242886e7656e019bf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1727,11 +1772,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 604450138318413850, guid: 75375b33148b80242886e7656e019bf6,
-        type: 3}
-      propertyPath: m_Name
-      value: icespike (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75375b33148b80242886e7656e019bf6, type: 3}

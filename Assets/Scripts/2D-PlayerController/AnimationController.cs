@@ -6,22 +6,22 @@ public class AnimationController : MonoBehaviour
 {   
 
     private Animator anim;
+    public int playerNum;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        playerNum = GetComponent<PlayerInput>().playerNum;
+        Debug.Log(playerNum);
     }
 
     // Update is called once per frame
     void Update()
     {   
-        if (Input.GetButton("left")) {
-            anim.SetTrigger("IsRunning");
-        }
-        else if (Input.GetButton("right")) {
-            anim.SetTrigger("IsRunning");
+        if (Mathf.Abs(Input.GetAxis("Horizontal" + playerNum)) < 0.2f) {
+            anim.SetBool("IsRunning", true);
         }else{
-            anim.ResetTrigger("IsRunning");
+            anim.SetBool("IsRunning", false);
         }
     }
 }
