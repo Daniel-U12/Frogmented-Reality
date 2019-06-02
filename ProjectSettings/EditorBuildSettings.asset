@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/YetiInto.unity
+    guid: fd095c31ed5014b0a9d5550f29f505fa
+  - enabled: 1
+    path: Assets/Scenes/p1wins.unity
+    guid: 54127cc937652413f834951b16fd0be4
+  - enabled: 1
+    path: Assets/Scenes/p2wins.unity
+    guid: d0303cf470f8d4627ad6e2966d878516
+  - enabled: 1
+    path: Assets/Scenes/RealGame.unity
+    guid: 3d12ff75659159141973e3edd5acf811
   m_configObjects: {}
