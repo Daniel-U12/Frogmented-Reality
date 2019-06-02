@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
             gameObj_pos.y,
             0);
         inst_pos.x = inst_pos.x;
-        GameObject bullet = Instantiate(projectile, inst_pos, Quaternion.identity) as GameObject;
+        GameObject bullet = Instantiate(projectile, inst_pos, new Quaternion(gameObj_pos.x, gameObj_pos.y , 0, 1)) as GameObject;
         bullet.GetComponent<Rigidbody2D>().velocity = new Vector2 (1.5f*dir,0f)*projectile_power;
     }
 
