@@ -29,9 +29,13 @@ public class PlayerController : MonoBehaviour
         if(safety_timer < safe_time){
             safety_timer += Time.deltaTime;
         }
+<<<<<<< HEAD
         if(hp == 0){
             Destroy(gameObject);
         }
+=======
+        //Debug.Log(hp);
+>>>>>>> master
         
     }
 

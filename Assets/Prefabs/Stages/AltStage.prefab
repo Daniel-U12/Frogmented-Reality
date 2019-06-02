@@ -495,7 +495,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stages:
-  - {fileID: 8443685574224217736, guid: f5f47fce1656447439b4064c083df2a8, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   morphDuration: 3
   morphDistance: 10
