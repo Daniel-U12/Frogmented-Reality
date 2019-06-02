@@ -364,7 +364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1493485006644997367}
-  - component: {fileID: 8443685574224217736}
+  - component: {fileID: 1010258892661410416}
   m_Layer: 0
   m_Name: BaseStage
   m_TagString: Untagged
@@ -390,7 +390,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8443685574224217736
+--- !u!114 &1010258892661410416
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -403,11 +403,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stages:
-  - {fileID: 8443685574224217736}
-  - {fileID: 5467902598898586332, guid: a88595e592d79fa40ba54994c0b9856e, type: 3}
-  - {fileID: 5467902598898586332, guid: a88595e592d79fa40ba54994c0b9856e, type: 3}
-  morphDuration: 3
-  morphDistance: 10
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  morphDuration: 0
+  morphDistance: 0
   numMorphs: 0
 --- !u!1 &4360449200929286417
 GameObject:
