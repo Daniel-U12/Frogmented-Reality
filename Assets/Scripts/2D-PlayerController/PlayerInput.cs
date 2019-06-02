@@ -13,6 +13,7 @@ public class PlayerInput : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private int dir;
+    private int layermask = 1 << 4;
     public bool grounded = true;
     
     public float maxspeed = 1f;
@@ -78,6 +79,17 @@ public class PlayerInput : MonoBehaviour
             shoot_timer = 0;
             controller.shoot(dir);
         }
+    }
+    void FixedUpdate()
+    {
+        // Cast a ray straight down.
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, new Vector3(0,-1.5f,0), 1.5f, layermask);
+        Debug.DrawRay(transform.position, new Vector3(0,-1.5f,0), Color.green);
+        if (hit.collider != null && hit.collider.gameObject.tag == "Ground") {
+            Debug.Log("grounded");
+            grounded = true;
+        }
+
     }
 
 }

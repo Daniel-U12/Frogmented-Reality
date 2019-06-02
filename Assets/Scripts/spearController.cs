@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class spearController : MonoBehaviour
 {
-    public float timer = 2.5f;
-    public float stabbing = 2.0f;
-    public float stab_time = 2.0f;
+    public float timer = 1.5f;
+    public float stabbing = 1.0f;
+    public float stab_time = 1.0f;
     public bool is_stabbing = false;
     public bool is_returning = false;
     public Vector3 stab_vel = new Vector3 (0,0,0);
@@ -26,7 +26,7 @@ public class spearController : MonoBehaviour
                 timer -= Time.deltaTime;
 
             } else if ( timer < 0f ){
-                timer = 2.5f;
+                timer = 1.5f;
                 int stab = Random.Range(0,2);
                 if (stab == 1){
                     gameObject.GetComponent<Rigidbody2D>().velocity = stab_vel;

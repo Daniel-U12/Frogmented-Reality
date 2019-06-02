@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
 
     private int hp = 2;
-    private int layermask = 1 << 4;
+    
     private PlayerInput player_in; 
     // Start is called before the first frame update
     public float slippForce = 5f;
@@ -54,17 +54,6 @@ public class PlayerController : MonoBehaviour
         bullet.GetComponent<Rigidbody2D>().velocity = new Vector2 (1.5f*dir,0f)*projectile_power;
     }
 
-    void FixedUpdate()
-    {
-        // Cast a ray straight down.
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, new Vector3(0,-0.75f,0), 1.5f, layermask);
-        Debug.DrawRay(transform.position, new Vector3(0,-0.75f,0), Color.green);
-
-        if (hit.collider != null && hit.collider.gameObject.tag == "Ground") {
-            player_in.grounded = true;
-        }
-
-    }
 
     void OnCollisionEnter2D(Collision2D col){
         if(col.gameObject.tag == "Hazard" && safety_timer >= safe_time){
