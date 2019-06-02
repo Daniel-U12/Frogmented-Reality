@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1039800112754994588}
   m_Layer: 0
   m_Name: spike-mayan (16)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -325,7 +325,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.02717638, y: 6.6323853}
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 1039800112799461804}
   m_Layer: 0
   m_Name: spike-mayan (8)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 1039800112848936636}
   m_Layer: 0
   m_Name: spike-mayan (19)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 1039800113021892591}
   m_Layer: 0
   m_Name: spike-mayan (7)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 1039800113048607872}
   m_Layer: 0
   m_Name: spike-mayan (9)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -937,7 +937,7 @@ GameObject:
   - component: {fileID: 1039800113155389937}
   m_Layer: 0
   m_Name: spike-mayan (19)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1043,7 +1043,7 @@ GameObject:
   - component: {fileID: 1039800113216101680}
   m_Layer: 0
   m_Name: spike-mayan (6)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 1039800113315174781}
   m_Layer: 0
   m_Name: spike-mayan (16)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1402,7 +1402,7 @@ GameObject:
   - component: {fileID: 1039800113376623245}
   m_Layer: 0
   m_Name: spike-mayan (18)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1508,7 +1508,7 @@ GameObject:
   - component: {fileID: 1039800113397185641}
   m_Layer: 0
   m_Name: spike-mayan (3)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1714,7 +1714,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.02717638, y: 6.6323853}
@@ -1761,7 +1761,7 @@ GameObject:
   - component: {fileID: 1039800113413199697}
   m_Layer: 0
   m_Name: spike-mayan (4)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1902,7 +1902,7 @@ GameObject:
   - component: {fileID: 1039800113610965854}
   m_Layer: 0
   m_Name: spike-mayan (2)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2008,7 +2008,7 @@ GameObject:
   - component: {fileID: 1039800113731886131}
   m_Layer: 0
   m_Name: spike-mayan (17)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2193,7 +2193,7 @@ GameObject:
   - component: {fileID: 1039800113760414792}
   m_Layer: 0
   m_Name: spike-mayan (5)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2511,7 +2511,7 @@ GameObject:
   - component: {fileID: 1039800113863091625}
   m_Layer: 0
   m_Name: spike-mayan (8)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2617,7 +2617,7 @@ GameObject:
   - component: {fileID: 1039800114099849127}
   m_Layer: 0
   m_Name: spike-mayan (17)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2723,7 +2723,7 @@ GameObject:
   - component: {fileID: 1039800114196024376}
   m_Layer: 0
   m_Name: spike-mayan (10)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2906,7 +2906,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039800114232096399}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2929,7 +2929,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.02717638, y: 6.6323853}
@@ -2976,7 +2976,7 @@ GameObject:
   - component: {fileID: 1039800114241917572}
   m_Layer: 0
   m_Name: spike-mayan (18)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3082,7 +3082,7 @@ GameObject:
   - component: {fileID: 1039800114276474058}
   m_Layer: 0
   m_Name: spike-mayan (1)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3288,7 +3288,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.02717638, y: 6.6323853}
@@ -3335,7 +3335,7 @@ GameObject:
   - component: {fileID: 1039800114353354852}
   m_Layer: 0
   m_Name: spike-mayan
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3630,7 +3630,7 @@ GameObject:
   - component: {fileID: 1039800114687909825}
   m_Layer: 0
   m_Name: spike-mayan (11)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3788,6 +3788,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1039800114630199929}
     m_Modifications:
+    - target: {fileID: 3759517678024564350, guid: 0824693f3f7e041e388fa453499c2ea8,
+        type: 3}
+      propertyPath: m_Name
+      value: spear (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 3759517678024564289, guid: 0824693f3f7e041e388fa453499c2ea8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3852,11 +3857,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: -0.55000013
-      objectReference: {fileID: 0}
-    - target: {fileID: 3759517678024564350, guid: 0824693f3f7e041e388fa453499c2ea8,
-        type: 3}
-      propertyPath: m_Name
-      value: spear (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2045801172700087184, guid: 0824693f3f7e041e388fa453499c2ea8,
         type: 3}

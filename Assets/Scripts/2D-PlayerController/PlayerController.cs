@@ -60,6 +60,9 @@ public class PlayerController : MonoBehaviour
             safety_timer = 0;
             hp -= 1;
         }
+        else if(col.gameObject.tag == "Spike"){
+            Destroy(gameObject);
+        }
     }
     void OnCollisionEnterStay(Collision2D col){
         if(col.gameObject.tag == "Slippy"){

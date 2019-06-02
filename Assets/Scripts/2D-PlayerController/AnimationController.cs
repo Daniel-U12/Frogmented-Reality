@@ -16,12 +16,13 @@ public class AnimationController : MonoBehaviour
     void Update()
     {   
         if (Input.GetButton("left")) {
-            anim.SetTrigger("IsRunning");
+            anim.SetBool("IsRunning", true);
         }
         else if (Input.GetButton("right")) {
-            anim.SetTrigger("IsRunning");
-        }else{
-            anim.ResetTrigger("IsRunning");
+            anim.SetBool("IsRunning", true);
+        }else {
+            anim.SetBool("IsRunning", false);
+            //anim.SetTrigger("IsIdle");
         }
     }
 }

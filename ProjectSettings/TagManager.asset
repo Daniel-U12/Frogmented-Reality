@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - bee_boundary
   - Spike
+  - Player1
+  - Player2
+  - Hazard
   layers:
   - Default
   - TransparentFX
