@@ -970,7 +970,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6321008949348139551}
-  - component: {fileID: 3903688346571761760}
+  - component: {fileID: 7540853691118302595}
   m_Layer: 0
   m_Name: BeeLand
   m_TagString: Untagged
@@ -1004,7 +1004,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3903688346571761760
+--- !u!114 &7540853691118302595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1017,11 +1017,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stages:
-  - {fileID: 3903688346571761760}
-  - {fileID: 5467902598898586332, guid: a88595e592d79fa40ba54994c0b9856e, type: 3}
-  - {fileID: 5467902598898586332, guid: a88595e592d79fa40ba54994c0b9856e, type: 3}
-  morphDuration: 15
-  morphDistance: 20
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  morphDuration: 0
+  morphDistance: 0
   numMorphs: 0
 --- !u!1001 &440150945172169173
 PrefabInstance:
