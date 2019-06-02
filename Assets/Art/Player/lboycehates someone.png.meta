@@ -1,0 +1,381 @@
+fileFormatVersion: 2
+guid: 76242839c1fb26344b2cda98285bcd0d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lboycehates someone_0
+    21300002: lboycehates someone_1
+    21300004: lboycehates someone_2
+    21300006: lboycehates someone_3
+    21300008: lboycehates someone_4
+    21300010: lboycehates someone_5
+    21300012: lboycehates someone_6
+    21300014: lboycehates someone_7
+    21300016: lboycehates someone_8
+    21300018: lboycehates someone_10
+    21300020: lboycehates someone_11
+    21300022: lboycehates someone_12
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lboycehates someone_0
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1599
+        width: 461
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        position: {x: 280.65796, y: 98.93579, z: 0}
+        rotation: {x: 0, y: 0, z: 0.92387956, w: 0.3826835}
+        length: 224.94089
+        parentId: -1
+      spriteID: 62320458d8da2654c8f4251e0a6c4cf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_1
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1656
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b666129f43cfe434da90c84e95693160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_2
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1586
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f152a129f671c4a9744b4cfd7a9a98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_3
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1591
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9b67bd89b482d4f9ba07669849fa7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1084
+        width: 608
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        position: {x: 550.85956, y: 219.75049, z: 0}
+        rotation: {x: 0, y: 0, z: -0.99437964, w: 0.10587311}
+        length: 459.81793
+        parentId: -1
+      spriteID: 238c8cb93b5b2f54ea05841576264fd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_5
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 779
+        width: 551
+        height: 744
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        position: {x: 207.48901, y: 590.448, z: 0}
+        rotation: {x: 0, y: 0, z: -0.6375296, w: 0.77042586}
+        length: 517.4301
+        parentId: -1
+      spriteID: b88c9787db207bf449e34a1ea21fa4ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_6
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1350
+        width: 33
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e5e4d804ad57f419f886a0be6dd660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_7
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1079
+        width: 612
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        position: {x: 53.598022, y: 262.7859, z: 0}
+        rotation: {x: 0, y: 0, z: -0.18596329, w: 0.9825567}
+        length: 501.48337
+        parentId: -1
+      spriteID: 9f7158896e8ed3b4a92a1a820143b8ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_8
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 124
+        width: 434
+        height: 656
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        position: {x: 110.42908, y: 578.09924, z: 0}
+        rotation: {x: 0, y: 0, z: -0.51550823, w: 0.85688466}
+        length: 516.6323
+        parentId: -1
+      spriteID: 7c3de3c8ba7a6de40b304abb77b30298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_10
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 675
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726731d26cc83f949aa5ca4dacd4edf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 53
+        width: 392
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        position: {x: 279.0857, y: 503.87305, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7712864, w: 0.6364883}
+        length: 419.0891
+        parentId: -1
+      spriteID: 23e76bf58a5a7384e87ec830b50efcc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lboycehates someone_12
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 478
+        width: 32
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1da2a31136bc9e4db480de52615d841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aaab799454128ea4b9de3b7d9e6aeec5
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
