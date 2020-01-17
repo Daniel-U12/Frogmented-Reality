@@ -9,10 +9,10 @@ has unique dangers that the frogs must avoid in order to be the last frog standi
 
 ## Creators
 
-**James Graham-Hu** - *Art & Audio* - [Github](https://github.com/johnnybib)
-**Marcus Hum** - *Cheerleader and Lead Inspirationer* - [Github](https://github.com/mlhum)
-**Daniel Utvich** - *Coding* [Github](https://github.com/Daniel-U12)
-**Robbie Meyer**
-**Lorien Boyce**
+* **James Graham-Hu** - *Art & Audio* - [Github](https://github.com/johnnybib)
+* **Marcus Hum** - *Art* - [Github](https://github.com/mlhum)
+* **Daniel Utvich** - *Coding* [Github](https://github.com/Daniel-U12)
+* **Robbie Meyer**
+* **Lorien Boyce**
 
 
